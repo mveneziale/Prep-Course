@@ -26,7 +26,11 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-}
+var nuevoArray = [];
+for(var i = 0; i < array.lenght; i++){
+  nuevoArray[i] + 1;
+} return nuevoArray;
+} 
 
 
 function agregarItemAlFinalDelArray(array, elemento) {
