@@ -99,7 +99,14 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-}
+  var maximo = numeros[0];
+  for(var i = 1; i < numeros.lenght; i++){
+    if(numeros[i] > maximo){
+      maximo = numeros[i];
+    }
+  }
+  return maximo;
+} 
 
 
 function multiplicarArgumentos() {
